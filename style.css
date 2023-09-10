@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-image: url(Skyline.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+
+li, a, button{
+    font-family: 'Brygada 1918', serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 25px 10%;
+    border: 25px;
+    border-bottom: 25px;
+    /* overflow: hidden; */
+    background-color: #000000;
+    width: 100%;
+    height: 95px;
+    /* background-color: rgba(0, 0, 0, 0.15);    */
+    /* backdrop-filter: blur(5px); */
+
+}
+
+.logo{
+    cursor: pointer;
+    size: 45px;
+    
+    /* max-width: 50%;
+    max-height: 50%; */
+
+}
+
+
+.navbuttons{
+list-style: none;
+}
+
+.navbuttons li {
+    display:  inline-block;
+    padding: 0px 65px;
+    color: #911717;
+}
+
+
+.navbuttons li a {
+    transition: all 0.3 ease 0s;
+}
+
+
+.navbuttons li a:hover{
+    color: white;
+}
+
+
+button{
+    padding: 9px 25px ;
+    background-color: rgb(235, 230, 230);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    color: black;
+}
+
+
+
+button:hover{
+    background-color: rgb(212, 194, 90);
+}
+
+
+.nav{
+    
+    background-color: rgba(255, 255, 255, .15);   
+    backdrop-filter: blur(5px);
+}
+
+
+.logoimage {
+    filter: drop-shadow(-10px 0px 5px rgba(255, 255, 255, 0.8));
+}
+
+
+
+
+
+h2 {
+    color:rgb(235, 230, 230);
+    font-family: 'Brygada 1918', serif;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+    width: 550px;
+  }
+
+
+
+
+
+
+
+
+  h1 {
+    color:rgb(235, 230, 230);
+    font-family: 'Brygada 1918', serif;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+    width: 550px;
+  }
+  
+  h1 span {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .message {
+    background-color:rgb(240, 212, 56);
+    color: #000000;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 270px;
+    animation: openclose 5s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: 'Brygada 1918', serif;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 230px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 230px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 235px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 235px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 385px;
+    }
+    95% {
+      top: -9rem;
+      width: 385px;
+    }
+    98% {
+      top: -9rem;
+      width: 385;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
+  
