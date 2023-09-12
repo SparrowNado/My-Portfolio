@@ -20,30 +20,134 @@ li, a, button{
     font-family: 'Brygada 1918', serif;
     font-weight: 500;
     font-size: 24px;
-    color: white;
+    color: rgb(14, 13, 13);
     text-decoration: none;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
+    position: relative;
+    
+        
 
 }
+
+
+
+/* <!-- HTML !-->
+<button class="button-52" role="button">Button 52</button> */
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid rgb(250, 249, 249);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 1;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: rgb(250, 250, 250);
+  
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: top;
-    padding: 25px 10%;
+    padding: 25px 5%;
     border: 25px;
-    border-bottom: 25px;
+    /* border-bottom: 25px; */
     /* overflow: hidden; */
     background-color: #000000;
+     
     width: 100%;
-    height: 95px;
+    border-bottom: 4px ridge rgba(255, 255, 255, 0.925);
+    height: 105px;
+
+
+
     /* background-color: rgba(0, 0, 0, 0.15);    */
     /* backdrop-filter: blur(5px); */
 
 }
 
+
+
+.logoname{
+  margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
 .logo{
     cursor: pointer;
     size: 45px;
+    
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+    border-radius: 50%;
+    border: 2px solid #555;
+    border-color: rgb(240, 239, 237);
+    box-shadow: 0.5rem 0.5rem rgb(83, 74, 74), -0.5rem -0.5rem
+
+    
     
     /* max-width: 50%;
     max-height: 50%; */
@@ -53,40 +157,21 @@ header{
 
 .navbuttons{
 list-style: none;
-}
+margin: 0;
+padding: 0;
+padding-top: -15px;
+} 
 
-.navbuttons li {
+  .navbuttons li {
     display:  inline-block;
-    padding: 0px 65px;
-    color: #911717;
-}
+    padding: 0px 100px;
 
 
-.navbuttons li a {
-    transition: all 0.3 ease 0s;
-}
-
-
-.navbuttons li a:hover{
-    color: white;
-}
-
-
-button{
-    padding: 9px 25px ;
-    background-color: rgb(235, 230, 230);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
-    color: black;
-}
+    
+} 
 
 
 
-button:hover{
-    background-color: rgb(247,223,30);
-}
 
 
 .nav{
@@ -96,12 +181,13 @@ button:hover{
 }
 
 
-.logoimage {
-    filter: drop-shadow(-10px 0px 5px rgba(255, 255, 255, 0.8));
-    border: 5px white;
+/* .logoimage {
+    /* filter: drop-shadow(-10px 0px 5px rgba(255, 255, 255, 0.8)); */
+    /* border: 5px white;
     padding: 1px;
+    border-radius: 50%;
     
-}
+} */ */
 
 
 em{
@@ -157,7 +243,25 @@ color: rgb(247,223,30);
 
 
 
+.statement{
+  color:rgb(235, 230, 230);
+  font-family: 'Brygada 1918', serif;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  /* white-space: ; */
+  overflow: hidden;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: auto;
+  margin-left: auto;
+  width: 550px;
+  text-align: justify;
 
+}
 
 
 
@@ -179,6 +283,13 @@ color: rgb(247,223,30);
     
     
     width: 550px;
+  }
+
+
+  h2{
+    font-family: 'Brygada 1918', serif;
+    font-weight: 100;
+    font-size: 30px;
   }
   
   h1 span {
@@ -268,4 +379,6 @@ color: rgb(247,223,30);
       text-indent: 0;
     }
   }
+
+
   
