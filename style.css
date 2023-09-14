@@ -243,7 +243,7 @@ color: rgb(247,223,30);
   font-size: 25px;
   font-weight: 100;
   line-height: 1.5;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* white-space: ; */
   overflow: hidden;
   position: absolute;
@@ -307,10 +307,16 @@ color: rgb(247,223,30);
     animation: openclose 5s ease-in-out infinite;
   }
   
+
+
+  /* 3 word highlighted in a box */
   .word1, .word2, .word3 {
     font-family: 'Brygada 1918', serif;
   }
   
+
+
+  /* Animation keyframe for Aim to be text */
   @keyframes openclose {
     0% {
       top: 0.2rem;
