@@ -13,6 +13,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
+    
 
 }
 
@@ -36,10 +37,10 @@ li, a, button{
 
 
 
-/* <!-- HTML !-->
-<button class="button-52" role="button">Button 52</button> */
 
-/* CSS */
+
+
+
 .button-52 {
   font-size: 16px;
   font-weight: 200;
@@ -54,6 +55,7 @@ li, a, button{
   -webkit-user-select: none;
   z-index: 1;
   touch-action: manipulation;
+  display: flex;
 }
 
 .button-52:after {
@@ -112,8 +114,7 @@ header{
     align-items: top;
     padding: 25px 5%;
     border: 25px;
-    /* border-bottom: 25px; */
-    /* overflow: hidden; */
+   
     background-color: #000000;
      
     width: 100%;
@@ -122,8 +123,7 @@ header{
 
 
 
-    /* background-color: rgba(0, 0, 0, 0.15);    */
-    /* backdrop-filter: blur(5px); */
+   
 
 }
 
@@ -185,14 +185,12 @@ padding-top: -15px;
 
 
 
-em{
+.word1em,.word2em{
 font-family: 'Playfair Display', serif;
 color: rgb(247,223,30);
 }
 
-em:hover{
 
-}
 
 
 .name {
@@ -386,37 +384,3 @@ em:hover{
     }
   }
 
-/* 
-  .languages ul{
-  position:relative;
-  display:flex;
-  flex-direction:column;
-  gap:70px;
-}
-.languages ul li{
-  list-style:none;
-  position:relative;
-}
-.languages ul li a{
-  position:relative;
-  text-decoration:none;
-  font-size:3em;
-  line-height:2em;
-  letter-spacing:2px;
-  color:transparent;
-  -webkit-text-stroke:1px var(--clr);
-}
-.languages ul li a::before{
-  content:attr(data-text);
-  position:absolute;
-  color:var(--clr);
-  width:0px;
-  overflow:hidden;
-  transition:1s;
-  
-  border-right:8px solid var(--clr);
-}
-.languages ul li a:hover::before{
-  width:100%;
-  filter:drop-shadow(7px -12px 50px var(--clr));
-} */
